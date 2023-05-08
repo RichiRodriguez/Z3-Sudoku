@@ -2,7 +2,6 @@
 
 from z3 import *
 import numpy as np
-import pickle
 
 
 # -------------------------- Helper functions --------------------------
@@ -75,6 +74,7 @@ grid_16x16 = [
     [0,0,0,7,0,0,0,0,0,0,0,0,2,0,0,0]]
 
 puzzle = grid_16x16
+
 # Set the size and m_size
 size = len(puzzle)
 m_size = int(size**(0.5))
@@ -129,7 +129,7 @@ s.add(constraint_4)
 # Add the known values
 s.add(known_values)
 
-# Ask the solver for a solution and record execution time
+# Ask the solver for a solution
 status = str(s.check())
 
 if status == 'unsat':
