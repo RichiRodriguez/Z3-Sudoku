@@ -42,8 +42,14 @@ The following files are included in this archive:
 
 
 
-While a Jupyter Notebook file has been included (`Z3_Solution.ipynb`), it is not meant to be run.  It includes additional markdown cells with stylized comments.  The original source code in the Jupyter notebook can be found in the `Z3_Solution.py` file.
+While a Jupyter Notebook file has been included (`Z3_Solution.ipynb`), it is not meant to be run.  It includes additional markdown cells with stylized comments.  The original source code in the Jupyter notebook can be found in the `Z3_Solution.py` file.  This solution is meant to run only the Python scripts with extension `.py`.
 
+
+## Changing the Sudoku puzzle size
+| File | How to change the puzzle size |
+|------|-------------------------------|
+| `Z3_Solution.py` | Set the variable `puzzle` to `grid_9x9` for the 9x9 puzzle, or to `grid_16x16` for the 16x16 puzzle. |
+| `sudoku_naive.py`, <br>`sudoku_bitmasks.py`, <br>`sudoku_backtracking.py` | Set the variable `grid` to `grid_9x9` for the 9x9 puzzle, or to `grid_16x16` for the 16x16 puzzle. |
 
 ## Running the solution
 The solution can be run using Virtual Environment (`virtualenv`) or using Anaconda.
