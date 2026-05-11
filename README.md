@@ -6,7 +6,11 @@
 ### Files in archive
 The following files are included in this archive:
 
-![Archive](./tree-diagram.png)
+<!-- ![Archive](./tree-diagram.png)  -->
+<img src="./tree-diagram.png" alt="Archive" width="50%">
+# is there a way that I can use only 50% of the width for the image above? 
+
+
 
 
 | File                   | Description                                                                                                                                                                                                       |
