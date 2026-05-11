@@ -5,26 +5,9 @@
 
 ### Files in archive
 The following files are included in this archive:
-```bash
-├── README.md
-├── README.pdf
-├── requirements.txt
-├── Z3_Solution.ipynb
-├── Z3_Solution.py
-└── Other_Solvers
-    ├── 16x16_sudoku_backtracking.py.time
-    ├── 16x16_sudoku_bitmasks.py.time
-    ├── 16x16_sudoku_naive.py.time
-    ├── 16x16_Z3_Solution.py.time
-    ├── 9x9_sudoku_backtracking.py.time
-    ├── 9x9_sudoku_bitmasks.py.time
-    ├── 9x9_sudoku_naive.py.time
-    ├── 9x9_Z3_Solution.py.time
-    ├── sudoku_backtracking.py
-    ├── sudoku_bitmasks.py
-    ├── sudoku_naive.py
-    └── test_times.sh
-```
+
+![Archive](./tree-diagram.png)
+
 
 | File                   | Description                                                                                                                                                                                                       |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
