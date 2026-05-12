@@ -28,6 +28,7 @@ While a Jupyter Notebook file has been included (`Z3_Solution.ipynb`), it is not
 
 
 ## Changing the Sudoku puzzle size
+
 | File | How to change the puzzle size |
 |------|-------------------------------|
 | `Z3_Solution.py` | Set the variable `puzzle` to `grid_9x9` for the 9x9 puzzle, or to `grid_16x16` for the 16x16 puzzle. |
@@ -37,7 +38,7 @@ While a Jupyter Notebook file has been included (`Z3_Solution.ipynb`), it is not
 The solution can be run using Virtual Environment (`virtualenv`) or using Anaconda.
 
 ### Using virtualenv
-**Pre-requisites**: virtualenv and Python (3.10.6 or higher)
+**Pre-requisites**: virtualenv and Python (3.10.6 or higher). 
 1. Create a new virtual environment: `virtualenv Z3_Sudoku` (you can use any name)
 2. Activate the new environment: `source Z3_Sudoku/bin/activate` (or use the name you selected in step 1, if different than the default name)
 3. Install the required modules: `pip install -r requirements.txt` (you must be in the root directory of this extracted archive)
@@ -45,7 +46,7 @@ The solution can be run using Virtual Environment (`virtualenv`) or using Anacon
 
 
 ### Using Anaconda
-**Pre-requisites**: Anaconda (2023.3 or higher) and Python (3.10.6 or higher)
+**Pre-requisites**: Anaconda (2023.3 or higher) and Python (3.10.6 or higher). 
 1. Create a new conda environment: `conda create --name Z3_Sudoku` (you can use any name)
 2. Activate the new environment: `conda activate Z3_Sudoku` (or use the name you selected in step 1, if different than the default name)
 3. Install the required modules: `pip install -r requirements.txt` (you must be in the root directory of this extracted archive)
