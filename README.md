@@ -34,7 +34,7 @@ While a Jupyter Notebook file has been included (`Z3_Solution.ipynb`), it is not
 | `sudoku_naive.py`, <br>`sudoku_bitmasks.py`, <br>`sudoku_backtracking.py` | Set the variable `grid` to `grid_9x9` for the 9x9 puzzle, or to `grid_16x16` for the 16x16 puzzle.   |
 
 ## Running the solution
-The solution can be run using Virtual Environment (`virtualenv`) or using Anaconda.
+The solution can be run using Python's virtual environment or using Anaconda.
 
 ### Using Python's virtual environment
 **Pre-requisites**: virtualenv and Python (3.10.6 or higher).  
