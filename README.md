@@ -36,14 +36,14 @@ While a Jupyter Notebook file has been included (`Z3_Solution.ipynb`), it is not
 ## Running the solution
 The solution can be run using Virtual Environment (`virtualenv`) or using Anaconda.
 
-### Using virtualenv
+### Using Python's virtual environment
 **Pre-requisites**: virtualenv and Python (3.10.6 or higher).  
 
 Run the following commands in a terminal:
 
 | Command                           | Description                            |
 |-----------------------------------|----------------------------------------|
-| `virtualenv Z3_Sudoku`            | Create a new virtual environment named |
+| `python3 -m venv Z3_Sudoku`       | Create a new virtual environment named |
 | `source Z3_Sudoku/bin/activate`   | Activate the new environment           |
 | `pip install -r requirements.txt` | Install the required modules           |
 | `python3 Z3_Solution.py`          | Run the solution &#10070;              |
