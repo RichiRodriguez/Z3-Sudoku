@@ -7,7 +7,6 @@
 The following files are included in this archive:  
 <img src="./tree-diagram.png" alt="Archive" width="50%">
 
-
 | File                   | Description                                                                                                                                                                                                       |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | README.md              | This README file as a Markdown file                                                                                                                                                                               |
