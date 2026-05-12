@@ -40,6 +40,7 @@ The solution can be run using Virtual Environment (`virtualenv`) or using Anacon
 **Pre-requisites**: virtualenv and Python (3.10.6 or higher).  
 
 Run the following commands in a terminal:
+
 | Command                           | Description                            |
 |-----------------------------------|----------------------------------------|
 | `virtualenv Z3_Sudoku`            | Create a new virtual environment named |
@@ -52,6 +53,7 @@ Run the following commands in a terminal:
 **Pre-requisites**: Anaconda (2023.3 or higher) and Python (3.10.6 or higher).  
 
 Run the following commands in a terminal:  
+
 | Command                           | Description                    |
 |-----------------------------------|--------------------------------|
 | `conda create --name Z3_Sudoku`   | Create a new conda environment |
