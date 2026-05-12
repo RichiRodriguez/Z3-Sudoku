@@ -163,7 +163,7 @@ def sudoku_minigrids(puzzle):
             minigrids.append(grid[(i*m_size):(i*m_size + m_size), (j*m_size):(j*m_size + m_size)].reshape((-1,size)))
     return np.all([sudoku_distinct(_) for _ in minigrids])
 
-
+result = {True: 'Yes', False: 'No'}
 if 'solution' not in locals():
     print('Model was UNSAT, therefore, there\'s no need for verification')
 else:     
@@ -171,5 +171,5 @@ else:
     cols = sudoku_distinct(solution, which = 'col')
     mini_grids = sudoku_minigrids(solution)
     verification = rows & cols & mini_grids
-    print(f'This sudoku solution follows all the constraints: {verification}')
+    print(f'This sudoku solution follows all the constraints: {result[verification]}')
 
